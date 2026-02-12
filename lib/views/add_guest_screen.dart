@@ -56,7 +56,7 @@ class _AddGuestScreenState extends State<AddGuestScreen> {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text('Gagal generate: $e'),
-          backgroundColor: Colors.red,
+          backgroundColor: Color(0xFF1B4332),
         ),
       );
     }
@@ -73,7 +73,7 @@ class _AddGuestScreenState extends State<AddGuestScreen> {
   @override
   Widget build(BuildContext context) {
     final bool isDark = Theme.of(context).brightness == Brightness.dark;
-    final Color themeColor = Color(0xff9E3B3B);
+    final Color themeColor = Color(0xFF1B4332);
 
     final Color containerColor = isDark ? Color(0xFF1E1E1E) : Colors.white70;
 

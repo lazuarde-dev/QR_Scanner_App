@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
           content: Text(
             "Gagal: Tiket ID '$code' tidak terdaftar di Guest List!",
           ),
-          backgroundColor: Colors.red,
+          backgroundColor: Color(0xFF1B4332),
           duration: Duration(seconds: 3),
         ),
       );
@@ -334,7 +334,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     final bool isDark = Theme.of(context).brightness == Brightness.dark;
-    final Color themeColor = Color(0xff9E3B3B);
+    final Color themeColor = Color(0xFF1B4332);
 
     final Color containerColor = isDark ? Color(0xFF1E1E1E) : Colors.white70;
 
@@ -412,7 +412,7 @@ class _HomePageState extends State<HomePage> {
                       MaterialPageRoute(builder: (_) => AddGuestScreen()),
                     );
                   },
-                  child: Icon(Icons.person_add, color: Color(0xff9E3B3B)),
+                  child: Icon(Icons.person_add, color: Color(0xFF1B4332)),
                 ),
               ],
             ),
@@ -503,7 +503,7 @@ class _HomePageState extends State<HomePage> {
                                                 borderRadius:
                                                     BorderRadius.circular(8),
                                                 border: Border.all(
-                                                  color: Color(0xff9E3B3B),
+                                                  color: Color(0xFF1B4332),
                                                   width: 0.2,
                                                 ),
                                               ),

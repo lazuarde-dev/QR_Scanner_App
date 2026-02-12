@@ -41,29 +41,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB062NIUVFSbrRm3B7LEj0gQqJC_5z2n-Y',
-    appId: '1:841394497319:web:c692a685b6000661bceb02',
-    messagingSenderId: '841394497319',
-    projectId: 'qr-scanner-app-dae8e',
-    authDomain: 'qr-scanner-app-dae8e.firebaseapp.com',
-    storageBucket: 'qr-scanner-app-dae8e.firebasestorage.app',
-    measurementId: 'G-HD4RLZ465H',
+    apiKey: 'AIzaSyDNJeVFTNTzvVDlpXKGTdJyBmeg_UAxC-0',
+    appId: '1:711834189040:web:e441c59f46944ad57cd635',
+    messagingSenderId: '711834189040',
+    projectId: 'qr-scanner-app-9562e',
+    authDomain: 'qr-scanner-app-9562e.firebaseapp.com',
+    storageBucket: 'qr-scanner-app-9562e.firebasestorage.app',
+    measurementId: 'G-H8LWNNBCEX',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCPh18vfxjqgGffUJOHkDdNQ4XLDvMqRkw',
-    appId: '1:592026459872:android:e804edf5ca2c6b6840fa85',
-    messagingSenderId: '592026459872',
-    projectId: 'qr-scanner-app-716a2',
-    storageBucket: 'qr-scanner-app-716a2.firebasestorage.app',
+    apiKey: 'AIzaSyCqJelCbLrH9WVKG8n-yqNlM-qR7-A8gIQ',
+    appId: '1:711834189040:android:66a253e384c8e5a77cd635',
+    messagingSenderId: '711834189040',
+    projectId: 'qr-scanner-app-9562e',
+    storageBucket: 'qr-scanner-app-9562e.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDzITORuY0vy4b62ppnvg0HC96w4CMSS20',
-    appId: '1:592026459872:ios:ba8687e08c9361f240fa85',
-    messagingSenderId: '592026459872',
-    projectId: 'qr-scanner-app-716a2',
-    storageBucket: 'qr-scanner-app-716a2.firebasestorage.app',
+    apiKey: 'AIzaSyCmwGqutzlsQY6cQWNEhw0tS5JlpbEQ0cA',
+    appId: '1:711834189040:ios:0c15cf77d613a1fb7cd635',
+    messagingSenderId: '711834189040',
+    projectId: 'qr-scanner-app-9562e',
+    storageBucket: 'qr-scanner-app-9562e.firebasestorage.app',
     iosBundleId: 'com.example.qrScannerApp',
   );
 
