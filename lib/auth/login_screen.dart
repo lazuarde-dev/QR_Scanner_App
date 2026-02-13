@@ -82,7 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 _buildTextField(
                   label: "EMAIL ADDRESS",
                   controller: _emailController,
-                  hint: "yourname@mail.com",
+                  hint: "yourname@gmail.com",
                   icon: Icons.alternate_email_rounded,
                 ),
                 const SizedBox(height: 30),

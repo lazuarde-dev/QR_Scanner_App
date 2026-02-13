@@ -67,7 +67,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 const SizedBox(height: 40),
                 _buildTextField(label: "FULL NAME", controller: _nameController, hint: "John Doe", icon: Icons.person_outline),
                 const SizedBox(height: 25),
-                _buildTextField(label: "EMAIL ADDRESS", controller: _emailController, hint: "hello@mail.com", icon: Icons.alternate_email_rounded),
+                _buildTextField(label: "EMAIL ADDRESS", controller: _emailController, hint: "hello@gmail.com", icon: Icons.alternate_email_rounded),
                 const SizedBox(height: 25),
                 _buildTextField(
                   label: "PASSWORD", 
